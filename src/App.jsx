@@ -8,7 +8,7 @@ function App() {
       <Wellcome />
 
       <div className="characteristics">
-        <Characteristics icon={"⚙️"} title={"Asientos"} desc={"5"} />
+        <Characteristics icon={"👨"} title={"Asientos"} desc={"5"} />
         <Characteristics
           icon={"⚙️"}
           title={"Transmisión"}
