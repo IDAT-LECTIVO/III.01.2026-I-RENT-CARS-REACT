@@ -10,7 +10,7 @@ export function HomeCar({ name, price, year, brand, img }) {
   return (
     <div className="bg-white rounded-[10px] shadow-lg h-45" onClick={handleDetailsClick}>
       <div className="flex justify-center items-center h-23.25">
-        <img src={img} alt={name} className="w-full" />
+        <img src={img} alt={name} className="w-full" fetchPriority="high" />
       </div>
       <div className="flex flex-col border-t border-[#B9B9B9] p-2.5 h-26.75">
         <span className="text-[#B9B9B9] text-[8px]">{brand} - {year}</span>

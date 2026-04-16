@@ -8,7 +8,7 @@ export function HomeDetails() {
             price: 130,
             year:2026,
             brand: "Toyota",
-            img: "/toyota-4-runner.png",
+            img: "/toyota-4-runner.webp",
         },
         {
             id: 2,
@@ -16,7 +16,7 @@ export function HomeDetails() {
             price: 230,
             year:2026,
             brand: "Audi",
-            img: "/audi-q3-sportback.png",
+            img: "/audi-q3-sportback.webp",
         },
         {
             id: 3,
@@ -24,7 +24,7 @@ export function HomeDetails() {
             price: 100,
             year:2026,
             brand: "Nissan",
-            img: "/nissan-sentra.png",
+            img: "/nissan-sentra.webp",
         },
         {
             id: 4,
@@ -32,7 +32,7 @@ export function HomeDetails() {
             price: 180,
             year:2026,
             brand: "Toyota",
-            img: "/toyota-hilux.png",
+            img: "/toyota-hilux.webp",
         },
     ];
     return (
